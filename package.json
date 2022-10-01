@@ -1,0 +1,25 @@
+{
+  "name": "databases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:up": "db-migrate up --config config/database.json -e dev",
+    "db:down": "db-migrate down --config config/database.json -e dev",
+    "db:create": "db-migrate create --config config/database.json -e dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vulhpet/databases.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vulhpet/databases/issues"
+  },
+  "homepage": "https://github.com/vulhpet/databases#readme",
+  "dependencies": {
+    "db-migrate": "^0.11.13",
+    "db-migrate-mysql": "^2.2.0"
+  }
+}

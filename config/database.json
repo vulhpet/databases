@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "user": "root",
+        "driver": "mysql",
+        "host": "localhost",
+        "password": "pet@12345",
+        "multipleStatements": true,
+        "database": "PetDatabases"
+    }
+}
