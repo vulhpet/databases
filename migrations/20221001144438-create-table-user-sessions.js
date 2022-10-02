@@ -24,10 +24,10 @@ exports.up = function(db) {
       tokenExpireDate DATETIME NOT NULL,
 
       refreshToken VARCHAR(255) NOT NULL,
-      refreshTokenExpireDate VARCHAR(255) NOT NULL,
+      refreshTokenExpireDate DATETIME NOT NULL,
 
       userAgent VARCHAR(255) NOT NULL,
-      status VARCHAR(10) DEFAULT 'exprired',
+      status VARCHAR(10) DEFAULT 'expired',
 
       updatedDate DATETIME,
       deletedDate DATETIME,
